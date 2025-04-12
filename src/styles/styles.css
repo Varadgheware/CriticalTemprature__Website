@@ -1,0 +1,98 @@
+body, .App {
+  position: relative;
+  z-index: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Background Video */
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+
+/* Prediction Form Container */
+.prediction-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 600px;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px); /* glassmorphism effect */
+  -webkit-backdrop-filter: blur(10px);
+  color: #ffffff;
+  z-index: 1;
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+h1 {
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.form-container {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 80%;
+  padding: 12px;
+  margin: 15px 0;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+button {
+  padding: 12px 24px;
+  background: rgba(0, 123, 255, 0.8);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background: rgba(0, 123, 255, 1);
+  transform: translateY(-2px);
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 20px;
+  color: green;
+}
