@@ -6,7 +6,7 @@ const PredictionPage = () => {
   return (
     <div className="prediction-container">
       <h1>Superconductor Critical Temperature Prediction</h1>
-      <p>Enter the element's atomic mass to predict its critical temperature.</p>
+      <p>Enter the element's molecular mass to predict its critical temperature.</p>
       <PredictionForm />
     </div>
   );

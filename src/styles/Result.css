@@ -1,0 +1,41 @@
+.result-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 20px;
+}
+
+.result-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.result-details {
+  margin-top: 20px;
+}
+
+.result-item {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.temperature {
+  font-size: 3rem;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.result-info {
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.result-info p {
+  color: #666;
+  margin: 10px 0;
+}

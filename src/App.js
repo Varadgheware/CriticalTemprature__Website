@@ -4,6 +4,7 @@ import PredictionPage from "./components/PredictionPage";
 import Contact from "./components/Contact";
 import "./styles/styles.css";
 import Navbar from "./components/Navbar";
+import Result from "./components/Result";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<PredictionPage />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/model" element={<Result />} />
         </Routes>
       </div>
   );

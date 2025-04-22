@@ -17,7 +17,7 @@ const Contact = () => {
           <FaInstagram className="contact-icon" />
           <h3>Instagram</h3>
           <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
-            @yourusername
+            @Username
           </a>
         </div>
 
@@ -25,7 +25,7 @@ const Contact = () => {
           <FaLinkedin className="contact-icon" />
           <h3>LinkedIn</h3>
           <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
-            /in/yourusername
+            /in/@User
           </a>
         </div>
       </div>
